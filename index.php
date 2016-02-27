@@ -4,39 +4,25 @@
         <title> </title>
     </head>
     <body>
-<?php 
-$card = ["imageName" => "",
-"score" => "",
-"suit" => "",
-"rank" => ""];
-//indexed array
-$deck = [];
-$player =["imageName" => "",
-"name" => "",
-"score" => ""];
+<form action="game.php" method="POST">
+    
+<div>
+     <label>Player 1:</label><input type="text" name="p1"/>
+</div>
+<div>
+     <label>Player 2:</label><input type="text" name="p2"/>
+</div>
+<div>
+     <label>Player 3:</label><input type="text" name="p3"/>
+</div>
+<div>
+     <label>Player 4:</label><input type="text" name="p4"/>
+</div>
+<input type="submit" value="Go!" />
+    
+</form>
+<div>
 
-$player2 =["imageName" => "",
-"name" => "",
-"score" => ""];
-
-$player3 =["imageName" => "",
-"name" => "",
-"score" => ""];
-
-$player4 =["imageName" => "",
-"name" => "",
-"score" => ""];
-
-$table = [];
-
-//$table = ["position1" => $player1,
-//"position2" => $player2,];
-
-$hand = ["player" => null,
-"cards" => [],
-"score" =>];
-$game =["location" => $table, 
-"$hands" => []];
-?>
+</div>
     </body>
 </html>
