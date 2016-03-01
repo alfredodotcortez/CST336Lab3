@@ -1,0 +1,27 @@
+    
+    
+    #gameTable
+    {
+        float-offset: left;
+    }
+    
+    #myBody{
+    background-color:#303130;
+    color: Grey;
+    }
+  
+  table, th, td {
+    font-size: 20px;
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-color:black;
+    align-items: center;
+  }
+
+
+    img 
+    {
+        outline-style: groove;
+        outline-width: thick;
+    }
+        
